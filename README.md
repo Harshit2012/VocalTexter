@@ -1,5 +1,5 @@
 # Voice to Text Converter
-Voice to Text Converter is a simple and user-friendly web application that enables users to convert spoken words into written text. The application features an intuitive design with easy-to-use recording controls and a convenient copy button for quick text sharing.  
+Voice to Text Converter is a simple and user-friendly web application that enables users to convert spoken words into written text. The application features a easy-to-use recording controls and a convenient copy button for quick text sharing.  
 ## Features
 - Start and stop recording with the click of a button.
 - Effortlessly transcribe spoken words into text.
