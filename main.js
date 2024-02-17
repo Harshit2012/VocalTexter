@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const outputText = document.getElementById('outputText');
     const startBtn = document.getElementById('startBtn');
     const stopBtn = document.getElementById('stopBtn');
-    const copyBtn = document.getElementById('copyBtn'); // Add this line
+    const copyBtn = document.getElementById('copyBtn');
 
     let recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
 
