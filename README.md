@@ -13,3 +13,5 @@ Voice to Text Converter is a simple and user-friendly web application that enabl
 - HTML
 - CSS
 - JavaScript
+## Live Demo
+[Try it out here](https://harshit2012.github.io/Voice_to_Text_Converter/)
