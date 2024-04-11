@@ -21,5 +21,35 @@ SpeakWrite is a simple and user-friendly web application that enables users to c
 - JavaScript
 - Bootstrap for responsive design
 - Google fonts for good font
+## Cloning Your Fork
+
+To clone your forked repository, use the following command in your terminal:
+
+```bash
+git clone https://github.com/Harshit2012/SpeakWrite.git
+cd Emoji-Match
+```
+
+## Syncing Your Fork
+To sync your fork with the original repository, you’ll need to add the original repository as an upstream remote:
+```bash
+git remote add upstream https://github.com/Harshit2012/SpeakWrite.git
+```
+
+Fetch the branches and their respective commits from the upstream repository:
+```bash
+git fetch upstream
+```
+Check out your fork’s local default branch - usually main:
+```bash
+git checkout main
+```
+
+Merge the changes from the upstream default branch - usually main:
+```bash
+git merge upstream/main
+```
+
+Now, your local default branch is up-to-date with the original repository’s default branch.
 ## Live Demo
 [Try it out here](https://harshit2012.github.io/SpeakWrite/)
