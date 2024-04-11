@@ -44,3 +44,13 @@ document.addEventListener('DOMContentLoaded', function () {
         stopBtn.classList.add('d-none');
     };
 });
+
+function speak() {
+    var text = document.getElementById('text-to-speak').value;
+    if ('speechSynthesis' in window) {
+        var msg = new SpeechSynthesisUtterance(text);
+        window.speechSynthesis.speak(msg);
+    } else {
+        alert('Sorry, your browser does not support text to speech!');
+    }
+}
