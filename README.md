@@ -27,7 +27,7 @@ To clone your forked repository, use the following command in your terminal:
 
 ```bash
 git clone https://github.com/Harshit2012/SpeakWrite.git
-cd Emoji-Match
+cd SpeakWrite
 ```
 
 ## Syncing Your Fork
