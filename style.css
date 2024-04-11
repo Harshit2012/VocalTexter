@@ -1,8 +1,8 @@
-body{
+body {
     font-family: 'Arial', sans-serif;
 }
 
-.container{
+.container {
     max-width: 600px;
     background-color: white;
     padding: 20px;
@@ -10,11 +10,15 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-textarea{
+textarea {
     resize: none;
 }
 
-#logo{
+#text_to_speak {
+    resize: none;
+}
+
+#logo {
     border: none;
     outline: none;
     height: 100px;
