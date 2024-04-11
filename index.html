@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voice to Text Converter</title>
+    <title>SpeakWrite</title>
     <link rel="icon" href="logo.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body class="text-center">
-    <div class="container mt-5">
-        <img id="logo" src="logo.jpg">
-        <h1 class="mb-4" style="font-weight: bold;">Voice to Text Converter</h1>
+    <img id="logo" src="logo.jpg">
+    <h1 class="mb-4" style="font-weight: bold;">SpeakWrite</h1>
+    <div class="container m-10">
+        <h2>Voice To Text</h2>
         <textarea id="outputText" class="form-control mb-3" rows="5" readonly></textarea>
         <button id="startBtn" class="btn btn-primary">Start Recording</button>
         <button id="stopBtn" class="btn btn-danger d-none">Stop Recording</button><br><br>
         <button id="copyBtn" class="btn btn-success mb-3">Copy Text</button>
+    </div>
+    <br>
+    <div class="container m-10">
+        <h1>Text to Speech Converter</h1>
+        <textarea id="text-to-speak" class="form-control mb-3" rows="5" placeholder="Enter text here..."></textarea>
+        <br>
+        <button id="speak" class="btn btn-success" onclick="speak()">Convert Text to Speech</button>
     </div>
 </body>
 <script src="main.js"></script>
