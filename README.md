@@ -22,4 +22,4 @@ SpeakWrite is a simple and user-friendly web application that enables users to c
 - Bootstrap for responsive design
 - Google fonts for good font
 ## Live Demo
-[Try it out here](https://harshit2012.github.io/Voice_to_Text_Converter/)
+[Try it out here](https://harshit2012.github.io/SpeakWrite/)
