@@ -1,8 +1,8 @@
-body {
-    font-family: 'Arial', sans-serif;
-}
-
 .container {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     max-width: 600px;
     background-color: white;
     padding: 20px;
