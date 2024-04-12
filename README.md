@@ -21,6 +21,8 @@ SpeakWrite is a simple and user-friendly web application that enables users to c
 - JavaScript
 - Bootstrap for responsive design
 - Google fonts for good font
+## Preview
+![Screenshot (30)](https://github.com/Harshit2012/SpeakWrite/assets/105143145/f0e03723-439e-4c06-8db8-9b8d33385921)
 ## Cloning Your Fork
 
 To clone your forked repository, use the following command in your terminal:
