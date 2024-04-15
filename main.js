@@ -1,3 +1,13 @@
+let popup = document.getElementById("popup");
+
+function open_popup(){
+    popup.classList.add("open_popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open_popup");
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     const outputText = document.getElementById('outputText');
     const startBtn = document.getElementById('startBtn');
@@ -50,6 +60,7 @@ function speak() {
     if ('speechSynthesis' in window) {
         var msg = new SpeechSynthesisUtterance(text);
         window.speechSynthesis.speak(msg);
+        open_popup();
     } else {
         alert('Sorry, your browser does not support text to speech!');
     }
