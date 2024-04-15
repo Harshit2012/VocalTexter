@@ -25,3 +25,62 @@ textarea {
     width: 100px;
     border-radius: 50%;
 }
+
+#qr-img{
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#qr-img img{
+    width: 100%;
+}
+
+#qr-img.show-box{
+    max-height: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.popup{
+    width: 370px;
+    top: 0;
+    left: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0 30px 30px;
+    color: white;
+    background-color: rgb(57, 57, 57);
+    visibility: hidden;
+    transform: translate(430px, 150px) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open_popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(432px, -500px) scale(1);
+}
+
+.popup button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: green;
+    height: 50px;
+    width: 260px;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+}
