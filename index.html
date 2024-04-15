@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 </head>
 <body class="text-center">
     <img id="logo" src="logo.jpg">
@@ -28,6 +30,13 @@
         <br>
         <button id="speak" class="btn btn-success" onclick="speak()">Convert Text to Speech</button>
     </div>
+    <div class="popup" id="popup">
+        <img src="404-tick.png">
+        <h2>Voice Generated!</h2>
+        <p>The text is converted into Voice!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+    <p>A repository by Harshit2012</p>
 </body>
 <script src="main.js"></script>
 </html>
