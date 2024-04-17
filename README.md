@@ -1,5 +1,5 @@
-# SpeakWrite
-SpeakWrite is a simple and user-friendly web application that enables users to convert spoken words into written text and also convert text into voice. The application features a easy-to-use recording controls, a convenient copy button for quick text sharing and a easy to convert text to voice.  
+# VocalTexter
+VocalTexter is a simple and user-friendly web application that enables users to convert spoken words into written text and also convert text into voice. The application features a easy-to-use recording controls, a convenient copy button for quick text sharing and a easy to convert text to voice.  
 ## Features
 - Start and stop recording with the click of a button.
 - Effortlessly transcribe spoken words into text.
