@@ -55,3 +55,6 @@ git merge upstream/main
 Now, your local default branch is up-to-date with the original repository’s default branch.
 ## Live Demo
 [Try it out here](https://harshit2012.github.io/SpeakWrite/)
+
+## LICENSE
+This repository is under MIT License.
