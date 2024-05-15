@@ -53,8 +53,6 @@ git merge upstream/main
 ```
 
 Now, your local default branch is up-to-date with the original repository’s default branch.
-## Live Demo
-[Try it out here](https://harshit2012.github.io/SpeakWrite/)
 
 ## LICENSE
-This repository is under MIT License.
+This repository is under [MIT License](https://github.com/Harshit2012/VocalTexter#MIT-1-ov-file)
