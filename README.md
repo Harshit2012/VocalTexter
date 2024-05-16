@@ -28,14 +28,14 @@ VocalTexter is a simple and user-friendly web application that enables users to 
 To clone your forked repository, use the following command in your terminal:
 
 ```bash
-git clone https://github.com/Harshit2012/SpeakWrite.git
-cd SpeakWrite
+git clone https://github.com/Harshit2012/VocalTexter.git
+cd VocalTexter
 ```
 
 ## Syncing Your Fork
 To sync your fork with the original repository, you’ll need to add the original repository as an upstream remote:
 ```bash
-git remote add upstream https://github.com/Harshit2012/SpeakWrite.git
+git remote add upstream https://github.com/Harshit2012/VocalTexter.git
 ```
 
 Fetch the branches and their respective commits from the upstream repository:
