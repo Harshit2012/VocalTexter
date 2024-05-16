@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="logo.jpg" height="200" width="200">
+</p>
+
 # VocalTexter
 VocalTexter is a simple and user-friendly web application that enables users to convert spoken words into written text and also convert text into voice. The application features a easy-to-use recording controls, a convenient copy button for quick text sharing and a easy to convert text to voice.  
 ## Features
@@ -21,8 +25,11 @@ VocalTexter is a simple and user-friendly web application that enables users to 
 - JavaScript
 - Bootstrap for responsive design
 - Google fonts for good font
+
+
 ## Preview
-![Screenshot (30)](https://github.com/Harshit2012/SpeakWrite/assets/105143145/f0e03723-439e-4c06-8db8-9b8d33385921)
+![Screenshot (58)](https://github.com/Harshit2012/VocalTexter/assets/105143145/8c25764a-72b6-4bf9-93c6-cce00f62be32)
+
 ## Cloning Your Fork
 
 To clone your forked repository, use the following command in your terminal:
