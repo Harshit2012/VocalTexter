@@ -22,6 +22,7 @@
         <button id="startBtn" class="btn btn-primary">Start Recording</button>
         <button id="stopBtn" class="btn btn-danger d-none">Stop Recording</button><br><br>
         <button id="copyBtn" class="btn btn-success mb-3">Copy Text</button>
+        <button class="btn btn-outline-success mb-3" onclick="clearspeechTOtext()">Clear</button>
     </div>
     <br>
     <div class="container m-10">
@@ -29,6 +30,8 @@
         <textarea id="text-to-speak" class="form-control mb-3" rows="5" placeholder="Enter text here..."></textarea>
         <br>
         <button id="speak" class="btn btn-success" onclick="speak()">Convert Text to Speech</button>
+        <br><br>
+        <button class="btn btn-outline-success mb-3" onclick="cleartextTOspeech()">Clear</button>
     </div>
     <div class="popup" id="popup">
         <img src="404-tick.png">
