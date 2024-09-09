@@ -65,3 +65,11 @@ function speak() {
         alert('Sorry, your browser does not support text to speech!');
     }
 }
+
+function cleartextTOspeech(){
+    document.getElementById("text-to-speak").value = '';
+}
+
+function clearspeechTOtext(){
+    document.getElementById("outputText").value = '';
+}
